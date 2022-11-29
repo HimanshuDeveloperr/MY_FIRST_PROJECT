@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>void</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+
+<!-- <link rel="stylesheet" href="css/style.css"> -->
+<style>
+/* css reset */
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    padding: 4px 16px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+
+body
+{
+    font-family: 'Lobster', cursive;
+    color:white;
+  margin:0px;
+  padding:0px;
+  background: url('img/b3.jpg')
+  
+}
+
+.leftlogo{
+    position: absolute;
+    left: 17px;
+    top: 9px;
+    display: inline-block;
+    /* border: 3px solid orange; */
+    
+}
+.leftlogo img{
+    width: 152px;
+    height: 124px;
+    
+}
+.center{
+    /* border: 3px solid blue; */
+    display: block;
+    width: 33%;
+    margin: 13px 474px;
+
+}
+.right{
+    position: absolute;
+    right: 45px;
+    top: 13px;
+    display: inline-block;
+    /* border: 3px solid green; */
+
+}
+.btn{
+    font-family: 'Lobster', cursive;
+    margin: 11px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    /* border: 2px solid #695441; */
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(48, 43, 43);
+    text-decoration: underline;
+    color:#695441
+}
+.container{
+    /* border: 2px solid #efece3; */
+    margin: 79px 66px;
+    padding: 24px 51px;
+    width: 33%;
+    border-radius: 7px;
+    
+}
+.group input{
+    text-align: center;
+    display: block;
+    width: 306px;
+    padding: 3px;
+    border: 2px solid #42260a;
+    margin: 2px auto;
+    border-radius: 13px;
+    font-size: 15px;
+    font-family: 'Lobster', cursive;
+    
+}
+.container h1{
+    text-align: center;
+}
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="leftlogo">
+            <img src="img/new.jpg" alt="" id="gym">
+            
+
+        </div>
+         <!-- center for nav bar -->
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box button -->
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <h1>Your Fitness Our Obsession</h1>
+        <form action="noaction.php">
+            <div class="group">
+                <label for="name">Name:</label>
+                <input type="text" name="" placeholder="" id="name">
+            </div>
+            <br>
+            <div class="group">
+                <label for="myemail">Email:</label>
+                <input type="email" name="" placeholder="" id="myemail">
+            </div>
+            <br>
+            <div class="group">
+                <label for="weight">Your weight:</label>
+                <input type="number" name="" placeholder="" id="weight">
+            </div>
+            <br>
+            <div class="group">
+                <label for="phonenumber">Phonenumber:</label>
+                <input type="tel" name="" placeholder="" id="phonenumber">
+            </div>
+            <br>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+
+    </div>
+    
+</body>
+</html>
